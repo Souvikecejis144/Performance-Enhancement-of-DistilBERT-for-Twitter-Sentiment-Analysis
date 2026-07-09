@@ -1,0 +1,19 @@
+# Ignore model weight binaries and large datasets that exceed GitHub's 100MB limit
+*.safetensors
+training.1600000.processed.noemoticon.csv
+*.bin
+*.pt
+*.pth
+
+# Ignore Hugging Face training artifacts and checkpoints
+baseline_trainer/
+optimized_trainer/
+temp_trainer_*
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Local system files
+.ipynb_checkpoints/
+.DS_Store

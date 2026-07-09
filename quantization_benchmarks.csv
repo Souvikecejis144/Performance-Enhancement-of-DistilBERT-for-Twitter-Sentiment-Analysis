@@ -1,0 +1,3 @@
+Model Type,Model Size (MB),Avg Latency (ms/tweet),Relative Footprint,Speedup Factor
+Standard,255.42503356933594,18.136157989501953,1.0x,1.0x
+Quantized,132.28995418548584,11.325132369995115,1/1.9x,1.60x
